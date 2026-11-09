@@ -1,0 +1,11 @@
+.vscode/
+.vs/
+FsrLogs/
+Library/
+Logs/
+Temp/
+UserSettings/
+FSRJumpVR/.vsconfig
+FSRJumpVR/Assembly*
+FSRJumpVR/FSRJumpVR.slnx
+data_processing/
