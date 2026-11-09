@@ -9,3 +9,4 @@ FSRJumpVR/.vsconfig
 FSRJumpVR/Assembly*
 FSRJumpVR/FSRJumpVR.slnx
 data_processing/
+venv/

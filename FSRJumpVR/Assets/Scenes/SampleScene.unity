@@ -592,23 +592,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 1511457932}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c6cacb711ffaec24486acf0e22d2365b, type: 3}
+  m_Script: {fileID: 11500000, guid: 04b3ca7715471d14cb61a5a338848217, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::FsrSerialInput
+  m_EditorClassIdentifier: Assembly-CSharp::FsrUdpInput
   player: {fileID: 1084497764}
-  portName: 
-  baudRate: 115200
-  valueColumn: -1
-  baselineSeconds: 1.5
-  calibrateSeconds: 4
-  calibrateKey: 107
-  baselineKey: 98
-  defaultMax: 1000
-  minSpan: 30
-  smoothing: 0
-  response: 1
-  driftRate: 0.5
+  listenPort: 5005
+  fullScaleVolts: 0.6
+  fullScaleKey: 107
+  fullScaleSeconds: 4
   keyboardWhenDisconnected: 1
+  logToCsv: 1
 --- !u!1 &1809766658
 GameObject:
   m_ObjectHideFlags: 0
