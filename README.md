@@ -1,6 +1,6 @@
-# FSRJumpVR
+# RockJumper
 
-FSRJumpVR is a VR game project developed in Unity. This repository contains the source code, assets, and documentation for the game. This game is developed as a part of Signal, Systems and Random Processes Course (ES 244) at IIT Gandhinagar.
+RockJumper is a VR game project developed in Unity. This repository contains the source code, assets, and documentation for the game. This game is developed as a part of Signal, Systems and Random Processes Course (ES 244) at IIT Gandhinagar.
 
 ## Hardware Integration
 This project uses an Arduino and a Force Sensitive Resistor (FSR) to measure jump force and calculate jump height. The Arduino reads the FSR data and communicates with the Unity game to provide real-time jump input.
